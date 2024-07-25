@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <style>
+            .div{
+                background-color: aqua;
+                height: 100px;
+                width: 100px;
+                animation-name: anime;
+                animation-duration: 4s;
+                position:relative;
+                margin-left: 300px;
+            }
+               
+            @keyframes anime {
+                0% {background-color: blue; left: 0px; top: 0px;}
+                25% {background-color: rgb(0, 255, 238); left: 500px; top: 0px;}
+                75% {background-color: rgb(255, 238, 0); left: 500px; top: 500px;}
+                100% {background-color: rgb(255, 0, 0); left: 0px; top: 500px;}
+            }
+        </style>
+    </head>
+    <body>
+        <div class="div">
+
+        </div>
+    </body>
+</html>
